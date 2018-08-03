@@ -5,6 +5,8 @@
  */
 package jobsheet7;
 
+import java.util.Scanner;
+
 /**
  *
  * @author asus
@@ -15,6 +17,14 @@ public class SaranBahan2Resep {
         System.out.println("identitas : "+ identitas);
         
         System.out.print("\nSaran Resep dari Bahan Milik Anda\n");
+        
+        Scanner scanner = new Scanner(system.in);
+        
+        System.out.println("Bahasa Pertama: ");
+        System.out.println("1. Pisang");
+        System.out.println("2. Telur");
+        System.out.print("Masukkan no pilihan Anda :");
+        int bahan1 = scanner.nextInt();
     }
     
 }
