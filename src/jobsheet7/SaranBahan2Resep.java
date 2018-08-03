@@ -37,7 +37,7 @@ public class SaranBahan2Resep {
             System.out.println("2. Roti");
             System.out.println("3. Tidak ada");
         }
-        System.out.println("Masukkan no pilihan anda :");
+        System.out.print("Masukkan no pilihan anda :");
         int bahan2 = scanner.nextInt();
         
     }else
