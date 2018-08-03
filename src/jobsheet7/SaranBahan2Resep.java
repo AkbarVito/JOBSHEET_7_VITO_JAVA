@@ -18,7 +18,7 @@ public class SaranBahan2Resep {
         
         System.out.print("\nSaran Resep dari Bahan Milik Anda\n");
         
-        Scanner scanner = new Scanner(system.in);
+        Scanner scanner = new Scanner(System.in);
         
         System.out.println("Bahasa Pertama: ");
         System.out.println("1. Pisang");
