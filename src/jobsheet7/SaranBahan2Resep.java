@@ -43,6 +43,7 @@ public class SaranBahan2Resep {
     }else
          System.out.println("Mohon Maaf,pilihan tidak ditemukan, " + "tidak dapat memberikan saran resep");
      int bahan2 = scanner.nextInt();
+     
      if (bahan2 >= 1 && bahan2 <= 3)
      {
          if(bahan1==1)
